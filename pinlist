@@ -1,0 +1,358 @@
+Pinlist
+
+Exported from adc_newlayout_newcaps.brd at 12/15/10 7:49 PM
+
+EAGLE Version 5.7.0 Copyright (c) 1988-2010 CadSoft
+
+Part     Pad      Net
+
+C1       +        N$6
+         -        GND
+
+C2       +        N$1
+         -        GND
+
+C3       +        N$5
+         -        GND
+
+C4       +        N$2
+         -        GND
+
+C5       +        N$4
+         -        GND
+
+C6       1        N$5
+         2        GND
+
+C7       1        GND
+         2        N$3
+
+C8       1        N$53
+         2        GND
+
+C9       1        N$50
+         2        GND
+
+C10      +        N$53
+         -        GND
+
+C11      +        N$50
+         -        GND
+
+C12      1        N$6
+         2        GND
+
+C13      1        N$16
+         2        N$50
+
+C14      1        N$11
+         2        GND
+
+C15      +        N$11
+         -        GND
+
+C16      1        N$50
+         2        GND
+
+C17      1        N$33
+         2        N$34
+
+C18      +        N$53
+         -        GND
+
+C19      1        GND
+         2        N$38
+
+C20      1        GND
+         2        N$35
+
+C21      1        N$53
+         2        GND
+
+EXT_OSC  1        N$36
+
+GND_IN   MP       GND
+
+IC1      1        N$50
+         2        N$50
+         3        GND
+         4        N$16
+         5        N$11
+         6        GND
+         7        GND
+         8        N$11
+
+IC2      1        N$7
+         2        GND
+         3        N$32
+         4        N$32
+         5        N$50
+
+IC3      1        GND
+         2                 *** unconnected ***
+         3        N$11
+         4        N$53
+
+IC4      1        N$42
+         10       PD6
+         11       PD7
+         12                *** unconnected ***
+         13                *** unconnected ***
+         14                *** unconnected ***
+         15       MOSI
+         16       MISO
+         17       SCLK
+         18       N$53
+         19                *** unconnected ***
+         2        N$43
+         20       N$53
+         21       GND
+         22                *** unconnected ***
+         23       !DRDY
+         24       CS1
+         25       START
+         26       !RESET
+         27       !PWDN
+         28                *** unconnected ***
+         29       N$37
+         3        GND
+         30       PD0
+         31       PD1
+         32       N$41
+         4        N$53
+         5        GND
+         6        N$53
+         7        N$40
+         8        N$38
+         9                 *** unconnected ***
+
+JP1      1        MOSI
+         10       GND
+         2                 *** unconnected ***
+         3                 *** unconnected ***
+         4        GND
+         5        N$37
+         6        GND
+         7        SCLK
+         8        GND
+         9        MISO
+
+JP2      1        GND
+         10       N$50
+         11       GND
+         12       N$50
+         13       GND
+         14       GND
+         15       GND
+         16       GND
+         17       N$53
+         18       N$53
+         19       GND
+         2        N$49
+         20       GND
+         21       PD7
+         22       PD0
+         23       PD6
+         24       PD1
+         3        N$47
+         4        GND
+         5        GND
+         6        N$9
+         7        N$52
+         8        GND
+         9        GND
+
+LED1     A        N$43
+         C        N$44
+
+LED2     A        N$42
+         C        N$45
+
+LED3     A        N$41
+         C        N$46
+
+Q1       1        N$38
+         2        N$35
+
+R1       1        N$17
+         2        N$8
+
+R2       1        N$18
+         2        N$10
+
+R3       1        N$19
+         2        N$12
+
+R4       1        N$20
+         2        N$14
+
+R5       1        N$21
+         2        N$15
+
+R6       1        N$31
+         2        N$13
+
+R7       1        N$30
+         2        N$13
+
+R8       1        N$29
+         2        N$13
+
+R9       1        N$28
+         2        N$13
+
+R10      1        N$27
+         2        N$13
+
+R11      1        N$7
+         2        N$50
+
+R12      1        GND
+         2        N$7
+
+R13      1        N$33
+         2        N$34
+
+R14      1        N$37
+         2        N$53
+
+R15      1        GND
+         2        N$44
+
+R16      1        GND
+         2        N$45
+
+R17      1        GND
+         2        N$46
+
+RLD_OUT  1        N$33
+
+SJ1      1        N$15
+         2        N$50
+
+SJ2      1        N$8
+         2        N$50
+
+SJ3      1        N$50
+         2        N$26
+         3        N$13
+
+SJ4      1        N$10
+         2        N$50
+
+SJ5      1        N$50
+         2        N$25
+         3        N$13
+
+SJ6      1        N$12
+         2        N$50
+
+SJ7      1        N$50
+         2        N$24
+         3        N$13
+
+SJ8      1        N$14
+         2        N$50
+
+SJ9      1        N$50
+         2        N$23
+         3        N$13
+
+SJ10     1        N$50
+         2        N$22
+         3        N$13
+
+SJ11     1        N$32
+         2        N$13
+         3        N$33
+
+SJ12     1        N$35
+         2        N$40
+         3        N$36
+
+SJ13     1        N$53
+         2        N$39
+         3        GND
+
+U$1      1                 *** unconnected ***
+         10       N$8
+         11       N$25
+         12       N$10
+         13       N$24
+         14       N$12
+         15       N$23
+         16       N$14
+         17       N$15
+         18       N$22
+         19       N$50
+         2                 *** unconnected ***
+         20       GND
+         21       N$50
+         22       N$50
+         23       GND
+         24       N$6
+         25       GND
+         26       N$2
+         27                *** unconnected ***
+         28       N$1
+         29                *** unconnected ***
+         3                 *** unconnected ***
+         30       N$4
+         31       GND
+         32       GND
+         33       GND
+         34       MOSI
+         35       !PWDN
+         36       !RESET
+         37       N$36
+         38       START
+         39       CS1
+         4                 *** unconnected ***
+         40       SCLK
+         41       GND
+         42       N$49
+         43       MISO
+         44       N$52
+         45       N$9
+         46       N$47
+         47       !DRDY
+         48       N$53
+         49       GND
+         5                 *** unconnected ***
+         50       N$53
+         51       GND
+         52       N$39
+         53       GND
+         54       N$50
+         55       N$5
+         56       N$50
+         57       GND
+         58       GND
+         59       N$50
+         6                 *** unconnected ***
+         60       N$13
+         61       N$34
+         62       N$33
+         63       N$33
+         64       N$3
+         7                 *** unconnected ***
+         8                 *** unconnected ***
+         9        N$26
+
+VCC_IN   MP       N$11
+
+X1       1        N$17
+         2        N$31
+
+X2       1        N$18
+         2        N$30
+
+X3       1        N$19
+         2        N$29
+
+X4       1        N$20
+         2        N$28
+
+X5       1        N$21
+         2        N$27
+
