@@ -1,6 +1,6 @@
 Partlist
 
-Exported from adc_newlayout_newcaps.brd at 12/15/10 7:49 PM
+Exported from adc_newlayout_newcaps.brd at 12/15/10 7:54 PM
 
 EAGLE Version 5.7.0 Copyright (c) 1988-2010 CadSoft
 
@@ -14,14 +14,14 @@ C5       1µ             SMC_A        rcl               (1.975 1.125)         R27
 C6       100n           C1206        rcl               (2 2.5)               R0
 C7       100p           C1206        rcl               (1.4 2.15)            R270
 C8       100n           C1206        rcl               (2.625 2.6625)        R180
-C9       100n           C0805        rcl               (1.425 1.4)           R0
+C9       100n           C1206        rcl               (1.425 1.4)           R0
 C10      1µ             SMC_A        rcl               (2.6125 2.5375)       R180
 C11      1µ             SMC_A        rcl               (1.35 1.3)            R0
 C12      100n           C1206        rcl               (1.4 1.075)           R270
 C13      10n            C1206        rcl               (1.85 0.8)            R0
 C14      100n           C1206        rcl               (3.4 0.4)             R90
 C15      1µ             SMC_A        rcl               (2.075 0.5)           R90
-C16      100n           C1812        rcl               (1.55 2.675)          R0
+C16      100n           C1206        rcl               (1.55 2.675)          R0
 C17      10n            C1206        rcl               (1.625 2.3)           R0
 C18      10µ            SMC_C        rcl               (2.95 0.625)          R0
 C19      22p            C1206        rcl               (3.45 1.95)           R90
