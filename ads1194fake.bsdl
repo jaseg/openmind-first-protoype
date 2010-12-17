@@ -1,0 +1,60 @@
+IN8N 1 Analog input Differential analog negative input 8 (ADS1198 only)
+IN8P 2 Analog input Differential analog positive input 8 (ADS1198 only)
+IN7N 3 Analog input Differential analog negative input 7 (ADS1198 only)
+IN7P 4 Analog input Differential analog positive input 7 (ADS1198 only)
+IN6N 5 Analog input Differential analog negative input 6 (ADS1196/8 only)
+IN6P 6 Analog input Differential analog positive input 6 (ADS1196/8 only)
+IN5N 7 Analog input Differential analog negative input 5 (ADS1196/8 only)
+IN5P 8 Analog input Differential analog positive input 5 (ADS1196/8 only)
+IN4N 9 Analog input Differential analog negative input 4
+IN4P 10 Analog input Differential analog positive input 4
+IN3N 11 Analog input Differential analog negative input 3
+IN3P 12 Analog input Differential analog positive input 3
+IN2N 13 Analog input Differential analog negative input 2
+IN2P 14 Analog input Differential analog positive input 2
+IN1N 15 Analog input Differential analog negative input 1
+IN1P 16 Analog input Differential analog positive input 1
+TESTP_PACE_OUT1 17 Analog input/buffer output Internal test signal/single-ended buffer output based on register settings
+TESTN_PACE_OUT2 18 Analog input/output Internal test signal/single-ended buffer output based on register settings
+AVDD 19 Supply Analog supply
+AVSS 20 Supply Analog ground
+AVDD 21 Supply Analog supply
+AVDD 22 Supply Analog supply
+AVSS 23 Supply Analog ground
+VREFP 24 Analog input/output Positive reference voltage
+VREFN 25 Analog input Negative reference voltage
+VCAP4 26 Analog output Analog bypass capacitor
+NC 27 -- No connection; leave floating
+VCAP1 28 -- Analog bypass capacitor
+NC 29 -- No connection; leave floating
+VCAP2 30 -- Analog bypass capacitor
+RESV1 31 Digital input AVSS 32 Supply Analog ground
+DGND 33 Supply Digital ground
+DIN 34 Digital input SPI data in
+PWDN 35 Digital input Power-down; active low
+RESET 36 Digital input System reset; active low
+CLK 37 Digital input Master clock input
+START 38 Digital input Start conversion
+CS 39 Digital input SPI chip select; active low
+SCLK 40 Digital input SPI clock
+DAISY_IN 41 Digital input Daisy-chain input. If not used, short to logic zero (DGND).
+GPIO1 42 Digital input/output DOUT 43 Digital output GPIO2 44 Digital input/output General-purpose input/output pin
+GPIO3 45 Digital input/output General-purpose input/output pin
+GPIO4 46 Digital input/output General-purpose input/output pin
+DRDY 47 Digital output Data ready; active low
+DVDD 48 Supply Digital power supply
+DGND 49 Supply Digital ground
+DVDD 50 Supply Digital power supply
+DGND 51 Supply Digital ground
+CLKSEL 52 Digital input AVSS1 53 Supply Analog ground
+AVDD1 54 Supply Analog supply
+VCAP3 55 Analog Analog bypass capacitor
+AVDD 56 Supply Analog supply
+AVSS 57 Supply Analog ground
+AVSS 58 Supply Analog ground for charge pump
+AVDD 59 Supply Analog supply for charge pump
+RLDREF 60 Analog input Right leg drive noninverting input
+RLDINV 61 Analog input/output Right leg drive inverting input
+RLDIN 62 Analog input Right leg drive input to MUX
+RLDOUT 63 Analog output Right leg drive output
+WCT 64 Analog output Wilson Center Terminal output

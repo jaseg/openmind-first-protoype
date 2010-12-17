@@ -1,0 +1,66 @@
+entity ads1194 is
+generic (PHYSICAL_PIN_MAP : string := "tqfp64");
+port(
+INPUTN: in bit_vector(1 to 4);
+INPUTP: in bit_vector(1 to 4);
+TESTP_PACE_OUT1: inout bit;
+TESTN_PACE_OUT2: inout bit;
+VREFP: in bit;
+VREFN: in bit;
+VCAP: inout bit_vector(1 to 4);
+RESV1: in bit;
+DIN: in bit;
+!PWDN: in bit;
+!RESET: in bit;
+CLK: in bit;
+START: in bit;
+!CS: in bit;
+SCLK: in bit;
+DAISY_IN: in bit;
+GPIO: inout bit_vector(1 to 4);
+!DRDY: out bit;
+CLKSEL: in bit;
+RLDREF: in bit;
+RLDIN: in bit;
+RLDINV: inout bit;
+RLDOUT: out bit;
+WCT: out bit;
+NC : linkage bit_vector(1 to 10);
+AVCC: linkage bit_vector(1 to 6);
+AVSS: linkage bit_vector(1 to 6);
+DGND: linkage bit_vector(1 to 3);
+DVDD: linkage bit_vector(1 to 2)
+);
+use STD_1149_1_1990.all;
+attribute PIN_MAP of ads1194 : entity is PHYSICAL_PIN_MAP;
+constant tqfp64 : PIN_MAP_STRING:=
+"INPUTN: ( 15, 13, 11, 9),"&
+"INPUTP: ( 16, 14, 12, 10),"&
+"TESTP_PACE_OUT1: 17,"&
+"TESTN_PACE_OUT2: 18, "&
+"VREFP: 24,"&
+"VREFN: 25,"&
+"VCAP: ( 28, 30, 55, 26),"&
+"RESV1: 31,"&
+"DIN: 34,"&
+"!PWDN: 35,"&
+"!RESET: 36,"&
+"CLK: 37,"&
+"START: 38,"&
+"!CS: 39,"&
+"SCLK: 40,"&
+"DAISY_IN: 41,"&
+"GPIO: ( 42, 44, 45, 46),"&
+"!DRDY: 47,"&
+"CLKSEL: 52,"&
+"RLDREF: 60,"&
+"RLDIN: 62,"&
+"RLDINV: 61,"&
+"RLDOUT: 63,"&
+"WCT: 64,"&
+"NC : ( 1, 2, 3, 4, 5, 6, 7, 8, 27, 29),"&
+"AVCC: ( 19, 21, 22, 59, 56, 54),"&
+"AVSS: ( 58, 57, 53, 20, 23, 32),"&
+"DGND: ( 51, 49, 33),"&
+"DVDD: ( 50, 48)"
+end ads1194;
