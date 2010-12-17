@@ -1,63 +1,63 @@
 Pinlist
 
-Exported from adc_newlayout_newcaps.brd at 12/15/10 7:54 PM
+Exported from adc_guarded_newinput.brd at 12/17/10 3:06 PM
 
 EAGLE Version 5.7.0 Copyright (c) 1988-2010 CadSoft
 
 Part     Pad      Net
 
 C1       +        N$6
-         -        GND
+         -        VSS
 
 C2       +        N$1
-         -        GND
+         -        VSS
 
 C3       +        N$5
-         -        GND
+         -        VSS
 
 C4       +        N$2
-         -        GND
+         -        VSS
 
 C5       +        N$4
-         -        GND
+         -        VSS
 
 C6       1        N$5
-         2        GND
+         2        VSS
 
-C7       1        GND
+C7       1        VSS
          2        N$3
 
-C8       1        N$53
+C8       1        +3V3
          2        GND
 
-C9       1        N$50
-         2        GND
+C9       1        N$26
+         2        VSS
 
-C10      +        N$53
+C10      +        +3V3
          -        GND
 
-C11      +        N$50
-         -        GND
+C11      +        N$26
+         -        VSS
 
 C12      1        N$6
-         2        GND
+         2        VSS
 
 C13      1        N$16
-         2        N$50
+         2        N$26
 
 C14      1        N$11
          2        GND
 
 C15      +        N$11
-         -        GND
+         -        VSS
 
-C16      1        N$50
-         2        GND
+C16      1        N$26
+         2        VSS
 
 C17      1        N$33
          2        N$34
 
-C18      +        N$53
+C18      +        +3V3
          -        GND
 
 C19      1        GND
@@ -66,32 +66,32 @@ C19      1        GND
 C20      1        GND
          2        N$35
 
-C21      1        N$53
+C21      1        +3V3
          2        GND
 
 EXT_OSC  1        N$36
 
 GND_IN   MP       GND
 
-IC1      1        N$50
-         2        N$50
-         3        GND
+IC1      1        N$26
+         2        N$26
+         3        VSS
          4        N$16
          5        N$11
-         6        GND
-         7        GND
+         6        VSS
+         7        VSS
          8        N$11
 
 IC2      1        N$7
-         2        GND
-         3        N$32
-         4        N$32
-         5        N$50
+         2        VSS
+         3        N$70
+         4        N$70
+         5        N$26
 
 IC3      1        GND
          2                 *** unconnected ***
          3        N$11
-         4        N$53
+         4        +3V3
 
 IC4      1        N$42
          10       PD6
@@ -102,10 +102,10 @@ IC4      1        N$42
          15       MOSI
          16       MISO
          17       SCLK
-         18       N$53
+         18       +3V3
          19                *** unconnected ***
          2        N$43
-         20       N$53
+         20       +3V3
          21       GND
          22                *** unconnected ***
          23       !DRDY
@@ -119,9 +119,9 @@ IC4      1        N$42
          30       PD0
          31       PD1
          32       N$41
-         4        N$53
+         4        +3V3
          5        GND
-         6        N$53
+         6        +3V3
          7        N$40
          8        N$38
          9                 *** unconnected ***
@@ -137,16 +137,16 @@ JP1      1        MOSI
          8        GND
          9        MISO
 
-JP2      1        GND
-         10       N$50
-         11       GND
-         12       N$50
+JP2      1        VSS
+         10       N$26
+         11       VSS
+         12       N$26
          13       GND
-         14       GND
+         14       VSS
          15       GND
          16       GND
-         17       N$53
-         18       N$53
+         17       +3V3
+         18       +3V3
          19       GND
          2        N$49
          20       GND
@@ -155,12 +155,15 @@ JP2      1        GND
          23       PD6
          24       PD1
          3        N$47
-         4        GND
-         5        GND
+         4        VSS
+         5        VSS
          6        N$9
          7        N$52
-         8        GND
-         9        GND
+         8        VSS
+         9        VSS
+
+L1       1        GND
+         2        VSS
 
 LED1     A        N$43
          C        N$44
@@ -175,46 +178,34 @@ Q1       1        N$38
          2        N$35
 
 R1       1        N$17
-         2        N$8
+         2        N$20
 
 R2       1        N$18
-         2        N$10
+         2        N$13
 
-R3       1        N$19
-         2        N$12
-
-R4       1        N$20
-         2        N$14
-
-R5       1        N$21
-         2        N$15
+R5       1        N$14
+         2        N$25
 
 R6       1        N$31
-         2        N$13
+         2        N$8
 
 R7       1        N$30
-         2        N$13
+         2        N$8
 
-R8       1        N$29
-         2        N$13
-
-R9       1        N$28
-         2        N$13
-
-R10      1        N$27
-         2        N$13
+R10      1        N$15
+         2        N$19
 
 R11      1        N$7
-         2        N$50
+         2        N$26
 
-R12      1        GND
+R12      1        VSS
          2        N$7
 
 R13      1        N$33
          2        N$34
 
 R14      1        N$37
-         2        N$53
+         2        +3V3
 
 R15      1        GND
          2        N$44
@@ -225,73 +216,104 @@ R16      1        GND
 R17      1        GND
          2        N$46
 
+R18      1        N$22
+         2        N$24
+
+R19      1        N$21
+         2        N$24
+
+R20      1        N$23
+         2        N$61
+
+R21      1        N$27
+         2        N$62
+
+R22      1        N$59
+         2        N$60
+
+R23      1        N$58
+         2        N$60
+
+R24      1        N$63
+         2        N$68
+
+R25      1        N$64
+         2        N$69
+
+R26      1        N$66
+         2        N$67
+
+R27      1        N$65
+         2        N$67
+
 RLD_OUT  1        N$33
 
-SJ1      1        N$15
-         2        N$50
-
-SJ2      1        N$8
-         2        N$50
-
-SJ3      1        N$50
-         2        N$26
-         3        N$13
-
-SJ4      1        N$10
-         2        N$50
-
-SJ5      1        N$50
-         2        N$25
-         3        N$13
-
-SJ6      1        N$12
-         2        N$50
-
-SJ7      1        N$50
-         2        N$24
-         3        N$13
-
-SJ8      1        N$14
-         2        N$50
-
-SJ9      1        N$50
-         2        N$23
-         3        N$13
-
-SJ10     1        N$50
-         2        N$22
-         3        N$13
-
-SJ11     1        N$32
+SJ1      1        N$8
          2        N$13
-         3        N$33
+
+SJ2      1        N$20
+         2        N$8
+
+SJ3      1        N$70
+         2        N$8
+         3        N$26
+
+SJ4      1        N$25
+         2        N$24
+
+SJ5      1        N$24
+         2        N$19
+
+SJ6      1        N$70
+         2        N$24
+         3        N$26
+
+SJ7      1        N$61
+         2        N$60
+
+SJ8      1        N$60
+         2        N$62
+
+SJ9      1        N$70
+         2        N$60
+         3        N$26
+
+SJ10     1        N$68
+         2        N$67
+
+SJ11     1        N$67
+         2        N$69
 
 SJ12     1        N$35
          2        N$40
          3        N$36
 
-SJ13     1        N$53
+SJ13     1        +3V3
          2        N$39
          3        GND
 
+SJ14     1        N$70
+         2        N$67
+         3        N$26
+
 U$1      1                 *** unconnected ***
-         10       N$8
-         11       N$25
-         12       N$10
-         13       N$24
-         14       N$12
-         15       N$23
-         16       N$14
-         17       N$15
-         18       N$22
-         19       N$50
+         10       N$13
+         11       N$61
+         12       N$62
+         13       N$25
+         14       N$19
+         15       N$68
+         16       N$69
+         17                *** unconnected ***
+         18                *** unconnected ***
+         19       N$26
          2                 *** unconnected ***
-         20       GND
-         21       N$50
-         22       N$50
-         23       GND
+         20       VSS
+         21       N$26
+         22       N$26
+         23       VSS
          24       N$6
-         25       GND
+         25       VSS
          26       N$2
          27                *** unconnected ***
          28       N$1
@@ -299,7 +321,7 @@ U$1      1                 *** unconnected ***
          3                 *** unconnected ***
          30       N$4
          31       GND
-         32       GND
+         32       VSS
          33       GND
          34       MOSI
          35       !PWDN
@@ -316,28 +338,28 @@ U$1      1                 *** unconnected ***
          45       N$9
          46       N$47
          47       !DRDY
-         48       N$53
+         48       +3V3
          49       GND
          5                 *** unconnected ***
-         50       N$53
+         50       +3V3
          51       GND
          52       N$39
-         53       GND
-         54       N$50
+         53       VSS
+         54       N$26
          55       N$5
-         56       N$50
-         57       GND
-         58       GND
-         59       N$50
+         56       N$26
+         57       VSS
+         58       VSS
+         59       N$26
          6                 *** unconnected ***
-         60       N$13
+         60                *** unconnected ***
          61       N$34
          62       N$33
          63       N$33
          64       N$3
          7                 *** unconnected ***
          8                 *** unconnected ***
-         9        N$26
+         9        N$20
 
 VCC_IN   MP       N$11
 
@@ -347,12 +369,21 @@ X1       1        N$17
 X2       1        N$18
          2        N$30
 
-X3       1        N$19
-         2        N$29
+X5       1        N$14
+         2        N$22
 
-X4       1        N$20
-         2        N$28
+X6       1        N$15
+         2        N$21
 
-X5       1        N$21
-         2        N$27
+X7       1        N$23
+         2        N$59
+
+X8       1        N$27
+         2        N$58
+
+X9       1        N$63
+         2        N$66
+
+X10      1        N$64
+         2        N$65
 

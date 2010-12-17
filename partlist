@@ -1,6 +1,6 @@
 Partlist
 
-Exported from adc_guarded_newinput.brd at 12/17/10 12:59 PM
+Exported from adc_guarded_newinput.brd at 12/17/10 3:06 PM
 
 EAGLE Version 5.7.0 Copyright (c) 1988-2010 CadSoft
 
@@ -23,7 +23,7 @@ C14      100n           C1206        rcl               (95.25 8.89)          R18
 C15      1µ             SMC_A        rcl               (80.01 8.89)          R90
 C16      100n           C1206        rcl               (39.37 67.945)        R0
 C17      10n            C1206        rcl               (41.275 58.42)        R0
-C18      10µ            SMC_C        rcl               (90.17 11.43)         R270
+C18      10µ            SMC_C        rcl               (90.805 11.43)        R270
 C19      22p            C1206        rcl               (87.63 49.53)         R90
 C20      22p            C1206        rcl               (87.63 43.18)         R270
 C21      100n           C1206        rcl               (88.265 38.1)         R0
@@ -35,6 +35,7 @@ IC3      LD117AS33TR    SOT223       v-reg             (93.345 19.685)       R90
 IC4      MEGA8L         TQFP32-08    atmel             (74.93 45.72)         R180
 JP1                     2X05         pinhead           (60.96 45.72)         R90
 JP2                     2X12         pinhead           (62.23 76.2)          R0
+L1                      PIS2816      rcl               (84.455 15.875)       R270
 LED1     red            CHIPLED_1206 led               (83.82 31.75)         R180
 LED2     green          CHIPLED_1206 led               (80.01 31.75)         R180
 LED3     green          CHIPLED_1206 led               (76.2 31.75)          R180

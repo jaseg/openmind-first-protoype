@@ -1,6 +1,6 @@
 Netlist
 
-Exported from adc_newlayout_newcaps.brd at 12/15/10 7:54 PM
+Exported from adc_guarded_newinput.brd at 12/17/10 3:05 PM
 
 EAGLE Version 5.7.0 Copyright (c) 1988-2010 CadSoft
 
@@ -15,33 +15,33 @@ Net      Part     Pad
 !RESET   IC4      26
          U$1      36
 
++3V3     C10      +
+         C18      +
+         C21      1
+         C8       1
+         IC3      4
+         IC4      18
+         IC4      20
+         IC4      4
+         IC4      6
+         JP2      17
+         JP2      18
+         R14      2
+         SJ13     1
+         U$1      48
+         U$1      50
+
 CS1      IC4      24
          U$1      39
 
-GND      C1       -
-         C10      -
-         C11      -
-         C12      2
+GND      C10      -
          C14      2
-         C15      -
-         C16      2
          C18      -
          C19      1
-         C2       -
          C20      1
          C21      2
-         C3       -
-         C4       -
-         C5       -
-         C6       2
-         C7       1
          C8       2
-         C9       2
          GND_IN   MP
-         IC1      3
-         IC1      6
-         IC1      7
-         IC2      2
          IC3      1
          IC4      21
          IC4      3
@@ -50,35 +50,21 @@ GND      C1       -
          JP1      4
          JP1      6
          JP1      8
-         JP2      1
-         JP2      11
          JP2      13
-         JP2      14
          JP2      15
          JP2      16
          JP2      19
          JP2      20
-         JP2      4
-         JP2      5
-         JP2      8
-         JP2      9
-         R12      1
+         L1       1
          R15      1
          R16      1
          R17      1
          SJ13     3
-         U$1      20
-         U$1      23
-         U$1      25
          U$1      31
-         U$1      32
          U$1      33
          U$1      41
          U$1      49
          U$1      51
-         U$1      53
-         U$1      57
-         U$1      58
 
 MISO     IC4      16
          JP1      9
@@ -112,16 +98,14 @@ N$7      IC2      1
          R11      1
          R12      2
 
-N$8      R1       2
-         SJ2      1
-         U$1      10
+N$8      R6       2
+         R7       2
+         SJ1      1
+         SJ2      2
+         SJ3      2
 
 N$9      JP2      6
          U$1      45
-
-N$10     R2       2
-         SJ4      1
-         U$1      12
 
 N$11     C14      1
          C15      +
@@ -130,30 +114,15 @@ N$11     C14      1
          IC3      3
          VCC_IN   MP
 
-N$12     R3       2
-         SJ6      1
-         U$1      14
+N$13     R2       2
+         SJ1      2
+         U$1      10
 
-N$13     R10      2
-         R6       2
-         R7       2
-         R8       2
-         R9       2
-         SJ10     3
-         SJ11     2
-         SJ3      3
-         SJ5      3
-         SJ7      3
-         SJ9      3
-         U$1      60
+N$14     R5       1
+         X5       1
 
-N$14     R4       2
-         SJ8      1
-         U$1      16
-
-N$15     R5       2
-         SJ1      1
-         U$1      17
+N$15     R10      1
+         X6       1
 
 N$16     C13      1
          IC1      4
@@ -164,38 +133,56 @@ N$17     R1       1
 N$18     R2       1
          X2       1
 
-N$19     R3       1
-         X3       1
+N$19     R10      2
+         SJ5      2
+         U$1      14
 
-N$20     R4       1
-         X4       1
-
-N$21     R5       1
-         X5       1
-
-N$22     SJ10     2
-         U$1      18
-
-N$23     SJ9      2
-         U$1      15
-
-N$24     SJ7      2
-         U$1      13
-
-N$25     SJ5      2
-         U$1      11
-
-N$26     SJ3      2
+N$20     R1       2
+         SJ2      1
          U$1      9
 
-N$27     R10      1
+N$21     R19      1
+         X6       2
+
+N$22     R18      1
          X5       2
 
-N$28     R9       1
-         X4       2
+N$23     R20      1
+         X7       1
 
-N$29     R8       1
-         X3       2
+N$24     R18      2
+         R19      2
+         SJ4      2
+         SJ5      1
+         SJ6      2
+
+N$25     R5       2
+         SJ4      1
+         U$1      13
+
+N$26     C11      +
+         C13      2
+         C16      1
+         C9       1
+         IC1      1
+         IC1      2
+         IC2      5
+         JP2      10
+         JP2      12
+         R11      2
+         SJ14     3
+         SJ3      3
+         SJ6      3
+         SJ9      3
+         U$1      19
+         U$1      21
+         U$1      22
+         U$1      54
+         U$1      56
+         U$1      59
+
+N$27     R21      1
+         X8       1
 
 N$30     R7       1
          X2       2
@@ -203,14 +190,9 @@ N$30     R7       1
 N$31     R6       1
          X1       2
 
-N$32     IC2      3
-         IC2      4
-         SJ11     1
-
 N$33     C17      1
          R13      1
          RLD_OUT  1
-         SJ11     3
          U$1      62
          U$1      63
 
@@ -264,51 +246,61 @@ N$47     JP2      3
 N$49     JP2      2
          U$1      42
 
-N$50     C11      +
-         C13      2
-         C16      1
-         C9       1
-         IC1      1
-         IC1      2
-         IC2      5
-         JP2      10
-         JP2      12
-         R11      2
-         SJ1      2
-         SJ10     1
-         SJ2      2
-         SJ3      1
-         SJ4      2
-         SJ5      1
-         SJ6      2
-         SJ7      1
-         SJ8      2
-         SJ9      1
-         U$1      19
-         U$1      21
-         U$1      22
-         U$1      54
-         U$1      56
-         U$1      59
-
 N$52     JP2      7
          U$1      44
 
-N$53     C10      +
-         C18      +
-         C21      1
-         C8       1
-         IC3      4
-         IC4      18
-         IC4      20
-         IC4      4
-         IC4      6
-         JP2      17
-         JP2      18
-         R14      2
-         SJ13     1
-         U$1      48
-         U$1      50
+N$58     R23      1
+         X8       2
+
+N$59     R22      1
+         X7       2
+
+N$60     R22      2
+         R23      2
+         SJ7      2
+         SJ8      1
+         SJ9      2
+
+N$61     R20      2
+         SJ7      1
+         U$1      11
+
+N$62     R21      2
+         SJ8      2
+         U$1      12
+
+N$63     R24      1
+         X9       1
+
+N$64     R25      1
+         X10      1
+
+N$65     R27      1
+         X10      2
+
+N$66     R26      1
+         X9       2
+
+N$67     R26      2
+         R27      2
+         SJ10     2
+         SJ11     1
+         SJ14     2
+
+N$68     R24      2
+         SJ10     1
+         U$1      15
+
+N$69     R25      2
+         SJ11     2
+         U$1      16
+
+N$70     IC2      3
+         IC2      4
+         SJ14     1
+         SJ3      1
+         SJ6      1
+         SJ9      1
 
 PD0      IC4      30
          JP2      22
@@ -328,4 +320,37 @@ SCLK     IC4      17
 
 START    IC4      25
          U$1      38
+
+VSS      C1       -
+         C11      -
+         C12      2
+         C15      -
+         C16      2
+         C2       -
+         C3       -
+         C4       -
+         C5       -
+         C6       2
+         C7       1
+         C9       2
+         IC1      3
+         IC1      6
+         IC1      7
+         IC2      2
+         JP2      1
+         JP2      11
+         JP2      14
+         JP2      4
+         JP2      5
+         JP2      8
+         JP2      9
+         L1       2
+         R12      1
+         U$1      20
+         U$1      23
+         U$1      25
+         U$1      32
+         U$1      53
+         U$1      57
+         U$1      58
 
