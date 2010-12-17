@@ -1,79 +1,89 @@
 Partlist
 
-Exported from adc_newlayout_newcaps.sch at 12/15/10 8:03 PM
+Exported from adc_guarded_newinput.brd at 12/17/10 12:59 PM
 
 EAGLE Version 5.7.0 Copyright (c) 1988-2010 CadSoft
 
-Part     Value          Device          Package      Library           Sheet
+Part     Value          Package      Library           Position (mm)         Orientation
 
-C1       10µ            CPOL-EUSMCC     SMC_C        rcl               1
-C2       22µ            CPOL-EUSMCD     SMC_D        rcl               1
-C3       1µ             CPOL-EUSMCA     SMC_A        rcl               1
-C4       1µ             CPOL-EUSMCA     SMC_A        rcl               1
-C5       1µ             CPOL-EUSMCA     SMC_A        rcl               1
-C6       100n           C-EUC1206       C1206        rcl               1
-C7       100p           C-EUC1206       C1206        rcl               1
-C8       100n           C-EUC1206       C1206        rcl               1
-C9       100n           C-EUC1206       C1206        rcl               1
-C10      1µ             CPOL-EUSMCA     SMC_A        rcl               1
-C11      1µ             CPOL-EUSMCA     SMC_A        rcl               1
-C12      100n           C-EUC1206       C1206        rcl               1
-C13      10n            C-EUC1206       C1206        rcl               1
-C14      100n           C-EUC1206       C1206        rcl               1
-C15      1µ             CPOL-EUSMCA     SMC_A        rcl               1
-C16      100n           C-EUC1206       C1206        rcl               1
-C17      10n            C-EUC1206       C1206        rcl               1
-C18      10µ            CPOL-EUSMCC     SMC_C        rcl               1
-C19      22p            C-EUC1206       C1206        rcl               1
-C20      22p            C-EUC1206       C1206        rcl               1
-C21      100n           C-EUC1206       C1206        rcl               1
-EXT_OSC                 1,6/0,8         1,6/0,8      wirepad           1
-GND_IN   MCS10B         MCS10B          MCS10B       solpad            1
-IC1      LT1763CS8-5    LT1763CS8-3.3   SOIC8        linear-technology 1
-IC2      LMV321M7       LMV321M7        SC70-5L      linear            1
-IC3      LD117AS33TR    LD117AS33TR     SOT223       v-reg             1
-IC4      MEGA8L         MEGA8-AI        TQFP32-08    atmel             1
-JP1                     PINHD-2X5       2X05         pinhead           1
-JP2                     PINHD-2X12      2X12         pinhead           1
-LED1     red            LEDCHIPLED_1206 CHIPLED_1206 led               1
-LED2     green          LEDCHIPLED_1206 CHIPLED_1206 led               1
-LED3     green          LEDCHIPLED_1206 CHIPLED_1206 led               1
-Q1       16MHz          CRYSTALHC49UP   HC49UP       crystal           1
-R1       100k           R-EU_R1206      R1206        rcl               1
-R2       100k           R-EU_R1206      R1206        rcl               1
-R3       100k           R-EU_R1206      R1206        rcl               1
-R4       100k           R-EU_R1206      R1206        rcl               1
-R5       100k           R-EU_R1206      R1206        rcl               1
-R6       100k           R-EU_R1206      R1206        rcl               1
-R7       100k           R-EU_R1206      R1206        rcl               1
-R8       100k           R-EU_R1206      R1206        rcl               1
-R9       100k           R-EU_R1206      R1206        rcl               1
-R10      100k           R-EU_R1206      R1206        rcl               1
-R11      20k            R-EU_R1206      R1206        rcl               1
-R12      20k            R-EU_R1206      R1206        rcl               1
-R13      390k           R-EU_R1206      R1206        rcl               1
-R14      20k            R-EU_R1206      R1206        rcl               1
-R15      160            R-EU_R1206      R1206        rcl               1
-R16      120            R-EU_R1206      R1206        rcl               1
-R17      120            R-EU_R1206      R1206        rcl               1
-RLD_OUT                 2,54/1,0        2,54/1,0     wirepad           1
-SJ1                     SJ              SJ           jumper            1
-SJ2                     SJ              SJ           jumper            1
-SJ3                     SJ2W            SJ_2         jumper            1
-SJ4                     SJ              SJ           jumper            1
-SJ5                     SJ2W            SJ_2         jumper            1
-SJ6                     SJ              SJ           jumper            1
-SJ7                     SJ2W            SJ_2         jumper            1
-SJ8                     SJ              SJ           jumper            1
-SJ9                     SJ2W            SJ_2         jumper            1
-SJ10                    SJ2W            SJ_2         jumper            1
-SJ11                    SJ2W            SJ_2         jumper            1
-SJ12                    SJ2W            SJ_2         jumper            1
-SJ13                    SJ2W            SJ_2         jumper            1
-U$1      ADS1194        ADS1194         TQFP-64      mytexas           1
-VCC_IN   MCS10B         MCS10B          MCS10B       solpad            1
-X1       1-227161-0     1-227161-0      AMP_227161   con-coax          1
-X2       1-227161-0     1-227161-0      AMP_227161   con-coax          1
-X3       1-227161-0     1-227161-0      AMP_227161   con-coax          1
-X4       1-227161-0     1-227161-0      AMP_227161   con-coax          1
-X5       1-227161-0     1-227161-0      AMP_227161   con-coax          1
+C1       10µ            SMC_C        rcl               (51.435 28.575)       R270
+C2       22µ            SMC_D        rcl               (60.96 31.115)        R0
+C3       1µ             SMC_A        rcl               (50.8 66.04)          R0
+C4       1µ             SMC_A        rcl               (59.055 27.305)       R0
+C5       1µ             SMC_A        rcl               (59.055 34.925)       R0
+C6       100n           C1206        rcl               (50.8 63.5)           R0
+C7       100p           C1206        rcl               (35.56 54.61)         R270
+C8       100n           C1206        rcl               (66.675 67.6275)      R180
+C9       100n           C1206        rcl               (42.545 33.655)       R0
+C10      1µ             SMC_A        rcl               (66.3575 64.4525)     R180
+C11      1µ             SMC_A        rcl               (43.815 31.115)       R0
+C12      100n           C1206        rcl               (48.26 29.845)        R270
+C13      10n            C1206        rcl               (71.755 15.5575)      R90
+C14      100n           C1206        rcl               (95.25 8.89)          R180
+C15      1µ             SMC_A        rcl               (80.01 8.89)          R90
+C16      100n           C1206        rcl               (39.37 67.945)        R0
+C17      10n            C1206        rcl               (41.275 58.42)        R0
+C18      10µ            SMC_C        rcl               (90.17 11.43)         R270
+C19      22p            C1206        rcl               (87.63 49.53)         R90
+C20      22p            C1206        rcl               (87.63 43.18)         R270
+C21      100n           C1206        rcl               (88.265 38.1)         R0
+EXT_OSC                 1,6/0,8      wirepad           (55.245 43.18)        R0
+GND_IN   MCS10B         MCS10B       solpad            (86.36 5.715)         R0
+IC1      LT1763CS8-5    SOIC8        linear-technology (75.565 10.795)       R180
+IC2      LMV321M7       SC70-5L      linear            (39.37 63.5)          R0
+IC3      LD117AS33TR    SOT223       v-reg             (93.345 19.685)       R90
+IC4      MEGA8L         TQFP32-08    atmel             (74.93 45.72)         R180
+JP1                     2X05         pinhead           (60.96 45.72)         R90
+JP2                     2X12         pinhead           (62.23 76.2)          R0
+LED1     red            CHIPLED_1206 led               (83.82 31.75)         R180
+LED2     green          CHIPLED_1206 led               (80.01 31.75)         R180
+LED3     green          CHIPLED_1206 led               (76.2 31.75)          R180
+Q1       16MHz          HC49UP       crystal           (92.71 45.72)         R270
+R1       100k           R1206        rcl               (12.7 72.39)          R0
+R2       100k           R1206        rcl               (12.7 56.515)         R0
+R5       100k           R1206        rcl               (11.43 12.7)          R90
+R6       100k           R1206        rcl               (12.7 69.85)          R0
+R7       100k           R1206        rcl               (12.7 53.975)         R0
+R10      100k           R1206        rcl               (19.685 12.7)         R90
+R11      20k            R1206        rcl               (35.56 66.04)         R90
+R12      20k            R1206        rcl               (35.56 59.69)         R90
+R13      390k           R1206        rcl               (40.005 55.88)        R0
+R14      20k            R1206        rcl               (69.215 36.195)       R270
+R15      160            R1206        rcl               (83.82 25.7175)       R90
+R16      120            R1206        rcl               (80.01 25.7175)       R90
+R17      120            R1206        rcl               (76.2 25.7175)        R90
+R18      100k           R1206        rcl               (13.97 12.7)          R90
+R19      100k           R1206        rcl               (22.225 12.7)         R90
+R20      100k           R1206        rcl               (12.7 40.005)         R0
+R21      100k           R1206        rcl               (12.7 24.13)          R0
+R22      100k           R1206        rcl               (12.7 37.465)         R0
+R23      100k           R1206        rcl               (12.7 21.59)          R0
+R24      100k           R1206        rcl               (36.195 12.7)         R90
+R25      100k           R1206        rcl               (52.07 12.7)          R90
+R26      100k           R1206        rcl               (38.735 12.7)         R90
+R27      100k           R1206        rcl               (54.61 12.7)          R90
+RLD_OUT                 2,54/1,0     wirepad           (44.45 66.04)         R0
+SJ1                     SJW          jumper            (17.145 55.245)       R90
+SJ2                     SJW          jumper            (17.145 71.12)        R270
+SJ3                     SJ_2W        jumper            (14.605 49.53)        R0
+SJ4                     SJW          jumper            (12.7 17.145)         R0
+SJ5                     SJW          jumper            (20.955 16.51)        R180
+SJ6                     SJ_2W        jumper            (26.035 14.605)       R90
+SJ7                     SJW          jumper            (17.145 38.735)       R270
+SJ8                     SJW          jumper            (17.78 22.86)         R90
+SJ9                     SJ_2W        jumper            (14.605 33.02)        R0
+SJ10                    SJW          jumper            (37.465 17.145)       R0
+SJ11                    SJW          jumper            (53.34 17.78)         R180
+SJ12                    SJ_2         jumper            (84.455 47.625)       R270
+SJ13                    SJ_2         jumper            (51.435 59.055)       R90
+SJ14                    SJ_2W        jumper            (42.545 14.605)       R90
+U$1      ADS1194        TQFP-64      mytexas           (43.18 45.72)         R0
+VCC_IN   MCS10B         MCS10B       solpad            (96.52 3.81)          R0
+X1       1-227161-0     AMP_227161   con-coax          (2.54 72.39)          R90
+X2       1-227161-0     AMP_227161   con-coax          (2.54 56.515)         R90
+X5       1-227161-0     AMP_227161   con-coax          (2.54 7.62)           R90
+X6       1-227161-0     AMP_227161   con-coax          (19.685 2.54)         R180
+X7       1-227161-0     AMP_227161   con-coax          (2.54 40.005)         R90
+X8       1-227161-0     AMP_227161   con-coax          (2.54 24.13)          R90
+X9       1-227161-0     AMP_227161   con-coax          (36.195 2.54)         R180
+X10      1-227161-0     AMP_227161   con-coax          (52.07 2.54)          R180
