@@ -310,9 +310,6 @@ UsedLibrary="/home/jaseg/.eagle/lbr/xilinx-xc18v.lbr"
 UsedLibrary="/home/jaseg/.eagle/lbr/xilinx-xcv.lbr"
 UsedLibrary="/home/jaseg/.eagle/lbr/zetex.lbr"
 UsedLibrary="/home/jaseg/.eagle/lbr/zilog.lbr"
-UsedLibrary="/home/jaseg/mytexas.lbr"
-UsedLibrary="/home/jaseg/inductor_FASTRON.lbr"
-UsedLibrary="/home/jaseg/myparts.lbr"
 
 [Win_1]
 Type="Control Panel"
