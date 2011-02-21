@@ -2,3 +2,5 @@ OpenMind v 0.0.001-alpha-1
 
 This project is currently in development. It will soon be released under GPLv3, so just be a little bit patient ;). At the moment, the most current information available is to be found in a german forum: http://www.mikrocontroller.net/topic/207007
 Further details I will publish some time in the Wiki.
+The Schematics, PCB Layouts etc. are released under the terms of the GPLv3 (which is to be found in the "LICENSE" file).
+The latest version is currently the one of the adc_guarded_newinput.brd and dc_guarded_newinput.sch files. Rendered versions can be found in board_full.png and schematic_full.pdf.
