@@ -1,5 +1,5 @@
 [Eagle]
-Version="05 07 00"
+Version="05 11 00"
 Platform="Linux"
 Serial="62191E841E-LSR-WLM-1EL"
 Globals="Globals"
@@ -313,7 +313,7 @@ UsedLibrary="/home/jaseg/.eagle/lbr/zilog.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="0 1 599 400"
+Loc="-5 0 1434 878"
 State=1
 Number=0
 
