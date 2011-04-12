@@ -313,7 +313,7 @@ UsedLibrary="/home/jaseg/.eagle/lbr/zilog.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="-5 0 1434 878"
+Loc="0 0 1439 878"
 State=1
 Number=0
 
