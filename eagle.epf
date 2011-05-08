@@ -316,7 +316,7 @@ UsedLibrary="/home/jaseg/dev/hardware/NBitWonder-Eagle-Library/NBitWonder_logo_c
 [Win_1]
 Type="Control Panel"
 Loc="0 19 1437 897"
-State=2
+State=1
 Number=0
 
 [Desktop]

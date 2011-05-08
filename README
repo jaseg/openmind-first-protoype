@@ -1,6 +1,5 @@
-OpenMind v 0.0.001-alpha-1
+OpenMind v 0.0.001-alpha-2
 
-This project is currently in development. It will soon be released under GPLv3, so just be a little bit patient ;). At the moment, the most current information available is to be found in a german forum: http://www.mikrocontroller.net/topic/207007
 Further details I will publish some time in the Wiki.
 This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License (which is to be found in its full form here: http://creativecommons.org/licenses/by-sa/3.0/).
-The latest version is currently the one of the adc_guarded_newinput.brd and dc_guarded_newinput.sch files. Rendered versions can be found in board_full.png and schematic_full.pdf.
+The latest version is currently the one of the adc_guarded_newinput.brd and adc_guarded_newinput.sch files. Rendered versions can be found in board_full.png and schematic_full.pdf.
