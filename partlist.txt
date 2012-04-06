@@ -1,0 +1,102 @@
+Partlist
+
+Exported from adc_guarded_newinput.brd at 4/6/12 2:57 PM
+
+EAGLE Version 5.12.0 Copyright (c) 1988-2011 CadSoft
+
+Part     Value          Package      Library           Position (inch)       Orientation
+
+C1       10µ            C0805K       rcl               (1.6375 1.4625)       R180
+C2       22µ            C1206        rcl               (1.8375 1.387496)     R270
+C3       1µ             C0805K       rcl               (1.8375 2.2625)       R270
+C4       1µ             C0805K       rcl               (1.75 1.4125)         R270
+C5       1µ             C0805K       rcl               (1.925 1.4375)        R270
+C6       100n           C0805K       rcl               (1.775 2.15)          R0
+C7       100p           C0805K       rcl               (1.4 2.15)            R270
+C8       100n           C0805K       rcl               (2.575 2.8)           MR180
+C9       100n           C0805K       rcl               (1.65 1.7125)         MR180
+C10      1µ             C0805        rcl               (1.925 2.075)         MR0
+C11      1µ             C0805K       rcl               (1.65 1.925)          MR180
+C12      100n           C0805K       rcl               (1.6375 1.3875)       R180
+C13      10n            C0805K       rcl               (2.825 0.425)         R90
+C14      100n           C0805K       rcl               (3.8 0.7125)          R180
+C15      1µ             C0805K       rcl               (3.15 0.2125)         R90
+C16      100n           C0805        rcl               (1.55 2.675)          R0
+C17      10n            C0805K       rcl               (1.625 2.3)           R0
+C18      10µ            C0805K       rcl               (3.6125 0.7125)       R0
+C19      22p            C0805K       rcl               (3.45 1.95)           R90
+C20      22p            C0805K       rcl               (3.45 1.7)            R270
+C21      100n           C0805K       rcl               (3.2375 1.7875)       R270
+C22      100n           C0805        rcl               (1.3 2.35)            R270
+C23      22µ            C1206        rcl               (2.706252 0.425)      R270
+C24      470n           C0805K       rcl               (1.075 1.4)           R90
+C25      470n           C0805K       rcl               (1.075 2.25)          R270
+C26      100n           C0805K       rcl               (1.0375 2.8125)       R90
+C27      100n           C0805K       rcl               (0.8 1.525)           R180
+C28      680p           C0805        rcl               (0.6375 2.875)        R270
+C29      680p           C0805        rcl               (0.5875 2.3125)       R0
+C30      6n8            C0805        rcl               (0.55 2.5)            R270
+C31      6n8            C0805        rcl               (0.55 1.225)          R270
+C32      680p           C0805        rcl               (0.5875 1.0375)       R0
+C33      680p           C0805        rcl               (0.625 1.6)           R270
+D1       B140F          DO214AC      diode             (3.675 0.3125)        R180
+EXT                     2X12         pinhead           (2.45 3)              R0
+EXT_OSC                 1,6/0,8      wirepad           (3.325 1.5875)        R0
+GND_IN   MCS10B         MCS10B       solpad            (3.3875 0.15)         R0
+IC1      LT1763CS8-5    SOIC8        linear-technology (2.975 0.2875)        R180
+IC2      LMV321M7       SC70-5L      linear            (1.55 2.5)            R0
+IC3      LD1117AS33TR   SOT223       v-reg             (3.6875 0.5125)       R90
+IC4      MEGA8L         TQFP32-08    atmel             (2.95 1.8)            R180
+ISP                     2X05         pinhead           (3.75 2.65)           MR90
+L1                      PIS2816      rcl               (3.3375 0.4375)       R270
+LED1     red            CHIPLED_1206 led               (3.3 1.25)            R180
+LED2     green          CHIPLED_1206 led               (3.15 1.25)           R180
+LED3     green          CHIPLED_1206 led               (3 1.25)              R180
+Q1       8MHz           HC49UP       crystal           (3.65 1.8)            R270
+R1       22k            R1206        rcl               (0.5 2.85)            R0
+R2       22k            R1206        rcl               (0.5 2.225)           R0
+R3       470k           R1206        rcl               (1 2.1)               R180
+R4       470k           R1206        rcl               (1 1.5625)            R180
+R5       22k            R1206        rcl               (0.45 0.5)            R90
+R6       22k            R1206        rcl               (0.5 2.75)            R0
+R7       22k            R1206        rcl               (0.5 2.125)           R0
+R8       0              R1206        rcl               (0.8125 1.3875)       R180
+R9       0              R1206        rcl               (0.825 2.675)         R180
+R10      22k            R1206        rcl               (0.775 0.5)           R90
+R11      20k            R1206        rcl               (1.4 2.6)             R90
+R12      20k            R1206        rcl               (1.4 2.35)            R90
+R13      390k           R1206        rcl               (1.575 2.2)           R0
+R14      22k            R1206        rcl               (2.85 1.1375)         R270
+R15      160            R1206        rcl               (3.3 1.0125)          R90
+R16      120            R1206        rcl               (3.15 1.0125)         R90
+R17      120            R1206        rcl               (3 1.0125)            R90
+R18      22k            R1206        rcl               (0.55 0.5)            R90
+R19      22k            R1206        rcl               (0.875 0.5)           R90
+R20      22k            R1206        rcl               (0.5 1.575)           R0
+R21      22k            R1206        rcl               (0.5 0.95)            R0
+R22      22k            R1206        rcl               (0.5 1.475)           R0
+R23      22k            R1206        rcl               (0.5 0.85)            R0
+R24      22k            R1206        rcl               (1.425 0.5)           R90
+R25      22k            R1206        rcl               (2.05 0.5)            R90
+R26      22k            R1206        rcl               (1.525 0.5)           R90
+R27      22k            R1206        rcl               (2.15 0.5)            R90
+R28      22k            R1206        rcl               (2.8 1.725)           MR225
+R29      22k            R1206        rcl               (2.4375 1.6625)       MR90
+RESET                   B3F-10XX     switch-omron      (3.4 2.5375)          R0
+RLD_OUT                 2,54/1,0     wirepad           (1.725 2.4875)        R0
+SJ1                     SJ           jumper            (3.225 1.975)         R270
+SJ2                     SJ           jumper            (1.2625 2.6)          R0
+SJ12                    SJ_2         jumper            (3.325 1.875)         R270
+SJ13                    SJ_2         jumper            (1.975 2.15)          R90
+U$1      ADS1194        TQFP-64      mytexas           (1.7 1.8)             R0
+U$2      INA155         SO-08        mytexas           (0.775 2.5)           R270
+U$3      INA155         SO-08        mytexas           (0.775 1.225)         R270
+VCC_IN   MCS10B         MCS10B       solpad            (3.55 0.15)           R0
+X1       1-227161-0     AMP_227161   con-coax          (0.1 2.85)            R90
+X2       1-227161-0     AMP_227161   con-coax          (0.1 2.225)           R90
+X5       1-227161-0     AMP_227161   con-coax          (0.1 0.3)             R90
+X6       1-227161-0     AMP_227161   con-coax          (0.775 0.1)           R180
+X7       1-227161-0     AMP_227161   con-coax          (0.1 1.575)           R90
+X8       1-227161-0     AMP_227161   con-coax          (0.1 0.95)            R90
+X9       1-227161-0     AMP_227161   con-coax          (1.425 0.1)           R180
+X10      1-227161-0     AMP_227161   con-coax          (2.05 0.1)            R180
